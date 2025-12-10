@@ -10,6 +10,8 @@ function Show-Menu {
     Write-Host "3. Backup Incremental"
     Write-Host "4. Abrir carpeta del proyecto"
     Write-Host "5. Abrir releases de GitHub"
+    Write-Host "6. Restaurar backup"
+    Write-Host "7. Ver log de backups"
     Write-Host "0. Salir"
 }
 
@@ -25,7 +27,9 @@ while ($true) {
         "3" { .\quantum_flux_backup_system\backup-incremental.ps1 }
         "4" { Start-Process explorer.exe "." }
         "5" { Start-Process "https://github.com/maximumflashpower/quantum_flux_project_vol_1.0/releases" }
+        "6" { .\quantum_flux_backup_system\restore-backup.ps1; Pause }
+        "7" { notepad .\quantum_flux_backup_system\backup-log.txt }
         "0" { break }
-        default { Write-Host "Opcion invalida" }
+        default { Write-Host "Opcion invalida"; Start-Sleep -Seconds 1 }
     }
 }

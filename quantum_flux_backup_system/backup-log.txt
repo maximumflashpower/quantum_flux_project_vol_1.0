@@ -1,0 +1,4 @@
+2025-12-10 01:30:54	INFO	Iniciando backup completo quantum_flux_backup_2025-12-10_01-30-54.zip
+2025-12-10 01:30:57	INFO	ZIP creado en C:\Users\joseb\Downloads\chatgpt_organized_quantum_flux_project\quantum_flux_project_vol_1.0\quantum_flux_backup_2025-12-10_01-30-54.zip
+2025-12-10 01:30:57	INFO	Versión de build: 1.0.1
+2025-12-10 01:30:57	INFO	Ejecutando git add .
