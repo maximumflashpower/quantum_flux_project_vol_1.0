@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quantum Flux Backup Dashboard</title>
+<style>
+body {
+  background: #0A0F24;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+button {
+  width: 320px;
+  padding: 18px;
+  margin: 15px;
+  font-size: 22px;
+  background: #1E90FF;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #00BFFF;
+}
+</style>
+</head>
+<body>
+<h1>Quantum Flux Backup System</h1>
+
+<button onclick="location.href='backup-and-sync-github.ps1'">Backup Completo + Release</button>
+<button onclick="location.href='backup-incremental.ps1'">Backup Incremental</button>
+<button onclick="location.href='.'">Abrir Carpeta del Proyecto</button>
+<button onclick="window.open('https://github.com/maximumflashpower/quantum_flux_project_vol_1.0/releases')">Ver Releases GitHub</button>
+
+</body>
+</html>
