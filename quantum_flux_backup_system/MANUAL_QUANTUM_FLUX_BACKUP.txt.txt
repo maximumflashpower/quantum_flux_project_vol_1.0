@@ -1,0 +1,64 @@
+MANUAL_QUANTUM_FLUX_BACKUP.txt
+Quantum Flux Backup System — Manual Interno v1.0
+Uso Oficial para Quantum Flux Group Holdings, LLC
+========================================================
+QUANTUM FLUX BACKUP SYSTEM
+Manual Técnico Interno
+Version: 1.0 (TXT)
+1. Descripcion del Sistema
+
+Quantum Flux Backup System es el modulo oficial encargado de:
+
+Crear respaldos completos del proyecto Quantum Flux.
+
+Generar releases automaticos en GitHub.
+
+Mantener historial y logs del sistema.
+
+Restaurar versiones anteriores.
+
+Limpiar respaldos antiguos.
+
+Mostrar estado general del entorno.
+
+Integrarse con Git y GitHub CLI.
+
+Ejecutar backups programados diariamente.
+
+Proveer un dashboard HTML interno.
+
+Este sistema forma parte de la infraestructura corporativa Quantum Flux v8.
+
+2. Archivos Principales
+2.1 qf-menu.ps1
+
+Menu principal de control.
+Desde aqui se ejecutan todas las funciones del sistema.
+
+2.2 backup-and-sync-github.ps1
+
+Crea zip, lo sube a GitHub, genera commit y release.
+
+2.3 backup-incremental.ps1
+
+Crea respaldo incremental basado en archivos modificados.
+
+2.4 restore-backup.ps1
+
+Permite seleccionar y restaurar cualquier backup previo.
+
+2.5 backup-log.txt
+
+Registro interno de auditoria del sistema Quantum Flux.
+
+2.6 qf-dashboard.html
+
+Dashboard visual corporativo para navegacion interna.
+
+2.7 VERSION.txt
+
+Define la version interna del sistema de respaldo.
+
+2.8 QuantumFluxBackupReport.txt
+
+Reporte tecnico generado manualmente desde el menu.
