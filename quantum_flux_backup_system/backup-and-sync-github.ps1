@@ -15,8 +15,8 @@
 $PROJECT = "C:\Users\joseb\Downloads\chatgpt_organized_quantum_flux_project\quantum_flux_project_vol_1.0"
 
 # Opciones de configuracion
-$ENABLE_ENCRYPTION = $true        # Cambiar a $true si quieres encriptar
-$ENCRYPTION_PASSWORD = "A-5rd8S%fCr.We}xgmQq-Fq$"  # Cambiar antes de activar
+$ENABLE_ENCRYPTION = $false        # Cambiar a $true si quieres encriptar
+$ENCRYPTION_PASSWORD = "CAMBIAR_ESTA_CLAVE"  # Cambiar antes de activar
 
 # Rutas internas
 $DATE       = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
